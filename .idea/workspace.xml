@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7d66b71-47c2-4382-bf92-7870203f5469" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/helloworld" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helloworld.go" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/helloworld.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="193">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
                 <element signature="e#14#39#0" expanded="true" />
               </folding>
@@ -141,8 +142,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/helloworld.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="193">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
             <element signature="e#14#39#0" expanded="true" />
           </folding>
