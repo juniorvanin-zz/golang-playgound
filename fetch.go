@@ -28,6 +28,6 @@ func main() {
 			os.Exit(1)
 		}
 
-		fmt.Printf("%s", b)
+		fmt.Printf("Status: %s, Body: %s", resp.Status, b)
 	}
 }
