@@ -10,7 +10,11 @@ import (
 )
 
 func main() {
-	start := time.Now()
+	f, err := os.Create("output.txt")
+	if err != nil {
+		os.Exit(1)
+	}
+
 	ch := make(chan string)
 
 	for _, url :=  range os.Args[1:] {
@@ -18,9 +22,13 @@ func main() {
 	}
 
 	for range os.Args[1:] {
-		fmt.Println(<-ch)
+		_, err = f.WriteString(<-ch + "\n")
+
+		if err != nil {
+			fmt.Println("error writing output.txt file")
+		}
 	}
-	fmt.Printf("%.2fs elapsed\n", time.Since(start).Seconds())
+
 }
 
 func fetch(url string,ch chan<- string) {
